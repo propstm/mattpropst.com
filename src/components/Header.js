@@ -3,7 +3,9 @@ import React from 'react';
 class Header extends React.Component{
 	render(){
 		return (
-			<img src="" class="backgroundImage"  alt="Matt Propst at Halibut Point State Park in Rockport, MA" />
+			<div className="header">
+				<h1>MATT PROPST | SOFTWARE DEVELOPER</h1>
+			</div>
 			)
 	}
 }
