@@ -6,6 +6,10 @@ class Content extends React.Component{
 	render(){
 		return (
 			<div class="contentContainer">
+				<div class="about">
+					<p>I am a software developer living and working in Boston, MA. Over the past few years I've work in the LAMP Stack, also worked with MS SQL.  Along with web i've also been developing for iOS with Objective-C for the last several years.</p>
+					<p>Full stack is a loaded term (the stack seems to change so quickly as of late) but I enjoy being able to create a site an understand the data flow and architecture from front to back.</p>  
+				</div>
 				<div class="latest">
 				</div>
 				<Skills />
