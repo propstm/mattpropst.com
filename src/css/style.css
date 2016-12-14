@@ -22,7 +22,7 @@ body {
 }
 
 a{
-  color:#000;
+    color:#000;
     text-decoration: none;
     border-bottom: 2px solid #639fab;
 }
@@ -64,12 +64,20 @@ ul {
   font-family: 'Source Sans Pro', 'Raleway', serif;
 }
 
-
-  .socialLinks img{
+.socialLinks img{
     max-height: 35px;
     max-width: 35px;
     padding-right:5px;
   }
+
+.socialLinks a{
+    text-decoration: none;
+    border-bottom: 0px solid #639fab;
+}
+.socialLinks a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #639fab;
+}
 
 span.heading{
   font-weight:bold;

@@ -10,9 +10,9 @@ class Header extends React.Component{
 			<div className="header">
 				<h1>MATT PROPST</h1>
 				<div className="socialLinks">
-					<img src={linkedInImg} alt="Stack Overflow Icon" />
-					<img src={stackOverflowImg} alt="Stack Overflow Icon" />
-					<img src={twitterImg} alt="Stack Overflow Icon" />
+					<a href="https://www.linkedin.com/in/mattpropst" target="_blank"><img src={linkedInImg} alt="LinkedIn Icon" /></a>
+					<a href="http://stackoverflow.com/users/story/408974" target="_blank"><img src={stackOverflowImg} alt="Stack Overflow Icon" /></a>
+					<a href="https://www.twitter.com/propstm" target="_blank"><img src={twitterImg} alt="Twitter Icon" /></a>
 				</div>
 			</div>
 			)
