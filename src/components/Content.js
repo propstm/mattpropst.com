@@ -8,7 +8,7 @@ class Content extends React.Component{
 			<div className="contentContainer">
 				<Header />
 				<div className="about">
-					<p>I am a software developer living and working in Boston, MA. Over the past few years I've work in the LAMP Stack, also worked with MS SQL.  Along with web i've also been developing for iOS with Objective-C for the last several years. Full stack is a loaded term (the stack seems to change so quickly as of late) but I enjoy being able to create a site an understand the data flow and architecture from front to back.</p>  
+					<p>I am a software developer living and working in Boston, MA. Over the past few years I've work in the LAMP Stack, also worked with MS SQL.  Along with web i've also been developing for iOS with Objective-C for the last several years. Full stack is a loaded term (the stack seems to change so quickly as of late) but I enjoy being able to create a site and understand the data flow/architecture from front to back.</p>  
 					<p>I decided to create this site because I didn't have an updated website or portfolio online, and this site could serve as a good sample project while learning React. While I may be missing a few features I know i'd like to continue to build out this site to include a blog, contact form, and portfolio.</p>
 				</div>
 				<div className="latest">
