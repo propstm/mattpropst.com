@@ -65,10 +65,16 @@ ul {
 }
 
 
-.currently span.heading{
+  .socialLinks img{
+    max-height: 35px;
+    max-width: 35px;
+    padding-right:5px;
+  }
+
+span.heading{
   font-weight:bold;
 }
-.currently p{
+{
   margin: 2 0 0 0;
 }
 
