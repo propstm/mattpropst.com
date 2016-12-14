@@ -4,7 +4,9 @@ class Header extends React.Component{
 	render(){
 		return (
 			<div className="header">
-				<h1>MATT PROPST | SOFTWARE DEVELOPER</h1>
+				<h2>MATT PROPST | SOFTWARE DEVELOPER</h2>
+			
+				<img src="./images/so-icon.png" alt="Stack Overflow Icon" />
 			</div>
 			)
 	}

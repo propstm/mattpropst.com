@@ -9,7 +9,7 @@ const Root = () => {
 	return (
 		<BrowserRouter>
 			<div>
-				<Match pattern="/" component={App} />
+				<App />
 			</div>
 		</BrowserRouter>
 		)

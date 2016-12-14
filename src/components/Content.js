@@ -15,9 +15,9 @@ class Content extends React.Component{
 				</div>
 				<Skills />
 				<div className="currently">
-					<span className="heading">Actively Learning:</span> ReactJS 
-					<span className="heading">Reading:</span> Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers
-					<span className="heading">Listening To (Audiobook):</span>American Buffalo: In Search of a Lost Icon
+					<p><span className="heading">Actively Learning:</span> ReactJS </p>
+					<p><span className="heading">Reading:</span> <a href="https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788/ref=sr_1_1?ie=UTF8&qid=1481673272&sr=8-1&keywords=tools+of+titans" target="_blank">Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers</a></p>
+					<p><span className="heading">Listening To (Audiobook):</span> <a href="http://www.audible.com/pd/Science-Technology/American-Buffalo-Audiobook/B0036ZH8RE" target="_blank">American Buffalo: In Search of a Lost Icon</a></p>
 				</div>
 			</div>
 		)

@@ -21,8 +21,10 @@ body {
   font-size: 2rem;
 }
 
-.header{
-  font-family: 'Source Sans Pro', 'Raleway', serif;
+a{
+  color:#000;
+    text-decoration: none;
+    border-bottom: 2px solid #639fab;
 }
 
 h2 {
@@ -55,5 +57,18 @@ ul {
 .contentContainer{
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.header{
+  padding-top:150px;
+  font-family: 'Source Sans Pro', 'Raleway', serif;
+}
+
+
+.currently span.heading{
+  font-weight:bold;
+}
+.currently p{
+  margin: 2 0 0 0;
 }
 
