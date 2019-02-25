@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Skills from './Skills';
+import LatestContent from './LatestContent';
 
 class Content extends React.Component{
 	render(){
@@ -12,13 +13,11 @@ class Content extends React.Component{
 					<p>I decided to create this site because I didn't have an updated website or portfolio online, and this site could serve as a good sample project while learning React. While I may be missing a few features I know i'd like to continue to build out this site to include a blog, contact form, and portfolio.</p>
 				</div>
 				<div className="latest">
-				</div>
-				<div className="skills">
-					<p><span className="heading">Skills:</span> JavaScript, CSS3, HTML5, Mobile & Responsive Design, PHP, MySQL, Objective-C / iOS</p>
+					<LatestContent />
 				</div>
 				<div className="currently">
-					<p><span className="heading">Actively Learning:</span> <a href="https://reactforbeginners.com/" target="_blank">ReactJS</a></p>
-					<p><span className="heading">Reading:</span> <a href="https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788/ref=sr_1_1?ie=UTF8&qid=1481673272&sr=8-1&keywords=tools+of+titans" target="_blank">Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers</a></p>
+					<p><span className="heading">Actively Learning:</span> <a href="https://www.linkedin.com/learning/paths/become-a-mern-stack-javascript-developer" target="_blank">Become a MERN Stack JavaScript Developer via LinkedIn Learning</a></p>
+					<p><span className="heading">Reading:</span> <a href="https://www.amazon.com/gp/product/1786464535/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1" target="_blank">React Design Patterns and Best Practices</a></p>
 					<p><span className="heading">Listening To (Audiobook):</span> <a href="http://www.audible.com/pd/Science-Technology/The-Rise-of-Superman-Audiobook/B00I9LARGO?source_code=GPAGBSH0508140001&mkwid=s0THZlvXz_dc&pcrid=167187978705&pmt=&pkw=&cvosrc=ppc%20cse.google%20shopping.279850140&cvo_crid=167187978705&cvo_pid=43266390212" target="_blank">The Rise of Superman: Decoding the Science of Ultimate Human Performance</a></p>
 				</div>
 			</div>

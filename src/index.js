@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {BrowserRouter, Match, Miss} from 'react-router';
+import {BrowserRouter} from 'react-router-dom';
+import {Watch, Route, Switch} from 'react-router';
 
 import './css/style.css';
 import App from './components/App';
