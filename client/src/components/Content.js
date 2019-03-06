@@ -3,29 +3,8 @@ import Header from './Header';
 //import Skills from './Skills';
 import LatestContent from './LatestContent';
 
-import mongoose from 'mongoose';
-const url = 'mongodb://heroku_mongodb1985:m0ng0L0gin_2_TH3_DataB@s3!@ds045664.mlab.com:45664/heroku_4w2sh82g';
-
 class Content extends React.Component{
-	constructor(props){
-		super(props);
-		this.testDB = this.testDB.bind();
-	}
-	testDB(){
-		console.log("IN TEST DB");
-		//====MONGOOSE CONNECT===//
-		mongoose.connect(url, function (err, db) {
-			if (err) {
-	  			console.log('Unable to connect to the mongoDB server. Error:', err);
-			} else {
-	  			console.log('Connection established to', url);
-			}
-   		});
-   		//==========================//
-	}
-
 	render(){
-		this.testDB();
 		return (
 			<div className="contentContainer">
 				<Header />
