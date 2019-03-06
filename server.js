@@ -32,10 +32,11 @@ app.get('/api/hello', (req, res) => {
 });
 
 app.get("/api/getData", (req, res) => {
-  Data.find((err, data) => {
-    if (err) return res.json({ success: false, error: err });
-    return res.json({ success: true, data: data });
-  });
+  // Data.find((err, data) => {
+  //   if (err) return res.json({ success: false, error: err });
+  //   return res.json({ success: true, data: data });
+  // });
+  res.send({ result: 'Hello From Express API' });
 });
 
 
@@ -46,14 +47,6 @@ app.post('/api/pullItems', (req, res) => {
   );
 });
 
-router.get("/getData", (req, res) => {
-  Data.find((err, data) => {
-    if (err) return res.json({ success: false, error: err });
-    return res.json({ success: true, data: data });
-  });
-});
 
-// append /api for our http requests
-app.use("/api", router);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
